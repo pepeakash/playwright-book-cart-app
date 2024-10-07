@@ -3,7 +3,7 @@ import HomePage from "../app.flipkart/pages/homePage";
 import ResultPage from "../app.flipkart/pages/resultPage";
 import SearchResult from "../app.flipkart/pages/searchResult";
 
-test.only("Flipkart - search and add a product to the cart", async ({ page }) => {
+test("Flipkart - search and add a product to the cart", async ({ page }) => {
 
     const home = new HomePage(page);
     const search = new SearchResult(page);
